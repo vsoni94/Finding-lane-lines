@@ -7,11 +7,6 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale usi
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function to save coordinates for left and right lanes in (xl,yl) and (xr,yr) respectively. Then I calculated slopes for left and right lanes using maximum and minium coordinates of xl, yl, xr and yr. Finally, I interpolated the lines to coordinates of mask using slopes calculated above. 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 
